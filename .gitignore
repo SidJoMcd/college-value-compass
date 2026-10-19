@@ -1,0 +1,22 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Downloaded and processed data
+data/raw/
+data/processed/
+
+# Local databases and secrets
+*.duckdb
+*.db
+.env
+
+# macOS
+.DS_Store
